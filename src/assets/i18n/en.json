@@ -1,0 +1,114 @@
+{
+  "home": {
+    "greetings": "Hi! I'm",
+    "message": "I see every challenge as a new opportunity to learn.",
+    "download": "Download CV",
+    "contact": "Contact me"
+  },
+  "knowledge": {
+    "title1": "Knowledges",
+    "title2": "Skills",
+    "others": "Technologies and Software",
+    "experience": "Academic experience",
+    "project": "Projects",
+    "viewProjects": "View all projects",
+    "skill1": "Leadership",
+    "description1": "I consider myself a natural and democratic leader, able to listen to each team member, motivate them and make the best decisions to achieve the objectives.",
+    "skill2": "Teamwork",
+    "description2": "Working in a team also makes it easier for me to play other roles where I can transform ideas into work.",
+    "skill3": "Self-taught",
+    "description3": "I acquire new knowledge efficiently and effectively.",
+    "skill4": "Time management",
+    "description4": "I am able to plan and exercise conscious control of the time spent on specific activities, with the aim of increasing effectiveness, efficiency and productivity when carrying out a project.",
+    "skill5": "Communication and active listening",
+    "description5": "I constantly apply assertive communication in my daily life, in order to express my ideas in a direct, confident, calm and honest way, as well as being empathetic and respectful with other people.",
+    "skill6": "Conflict resolution",
+    "description6": "I am able to analyze the best way to solve the conflict and assume a mediating position in different scenarios and situations, presenting ideas that can help to solve it.",
+    "skill7": "Adaptation to change",
+    "description7": "I embrace change as a journey and we choose to persevere through challenges and uncertainty with a positive outlook."
+  },
+  "projects": {
+    "title1": "Projects",
+    "title2": "Certificates",
+
+    "subtitle1": "Key accomplishments",
+    "subtitle2": "Tech Stack",
+    "workmatch": {
+      "summary1": "Work Match is an application designed with the intention of providing users with the ability to find or offer temporary jobs. These jobs must be completed successfully in less than 8 hours and in person, for example: mowing lawns, washing cars, walking dogs, cleaning houses, among many others.",
+      "summary2": "Work Match has two types of users: job offerers and job seekers. Those users who decide to offer a job are the ones who make the postings that appear on the home page. So, users who are looking for jobs have the possibility to filter them based on their preferences and apply to those jobs they are really interested in those jobs that really interest them. It is important to that the same user can perform both actions from a single account.",
+      "key1": "Develop a single page application (SPA) using the PERN stack.",
+      "key2": "Call the data from an API.",
+      "key3": "Create relational databases.",
+      "key4": "RESTful API.",
+      "key5": "Integrated third party authentication and authorization.",
+      "key6": "Payment gateway.",
+      "key7": "Data storage in the cloud.",
+      "key8": "Local storage/persist.",
+      "key9": "Email notifications.",
+      "key10": "Logical deletion.",
+      "key11": "Searching by name and combined filtering.",
+      "key12": "Controlled and optimized form.",
+      "key13": "Apply styles using CSS Modules."
+    },
+    "cookbook": {
+      "summary": "It consists of an application with user authentication and authorization; it allows you to view, create, modify and delete your own recipes, as well as view and save other users' recipes.",
+      "key1": "Develop a single page application (SPA) using the PERN stack.",
+      "key2": "Call the data from an external API.",
+      "key3": "Create relational databases.",
+      "key4": "RESTful API.",
+      "key5": "Searching by name and combined filtering.",
+      "key6": "Controlled and optimized form.",
+      "key7": "Apply styles using CSS Modules."
+    },
+    "portfolio": {
+      "summary": "This portfolio is the first of many projects where I will implement Angular and TypeScript. Using TypeScript allowed me to get more accurate code, with fewer errors, simpler, more consistent and easier to test. And in turn, Angular 15 gave me the ability to quickly create UI views with a very simple and efficient template syntax.",
+      "key1": "Develop a single page application (SPA).",
+      "key2": "Reactive form with validations.",
+      "key3": "Multilanguage application",
+      "key4": "Communication between components"
+    }
+  },
+  "certificates": {
+    "title": "Knowledges",
+    "english": "B1 Intermediate",
+    "henryHero": {
+      "knowledge": "Teaching",
+      "description": "I had the joy of participating in the Henry Hero program, which consists mainly of teaching the essential topics to those students who are taking their first steps in programming and want to be part of the Henry community. As well as, solve their doubts and concerns, inspire confidence and provide support in this new stage."
+    },
+    "henryFullStack": {
+      "description1": "Henry is a bootcamp focused on educating students in technology careers, providing them with more than 800 hours of hands-on practice and developing self-directed learning.",
+      "description2": "This course has given me an intensive training in which I have acquired a lot of knowledge of the latest technologies and programming languages, mainly JavaScript, HTML, CSS, React JS, Node JS, Express, among others.",
+      "description3": "It also gave me the opportunity to build, both individually and in teams, real-world projects with agile methodologies and tools (scrum), under collaborative, autonomous and continuous learning."
+    }
+  },
+  "about": {
+    "title1": "About me",
+    "title2": "My strengths",
+    "title3": "My motivation",
+    "title4": "My objectives",
+    "about1": "Hello, my name is Dariana Rengifo. I was born and raised in Venezuela and currently live in Argentina.",
+    "about2": "Since I was a little girl I have loved design, art and illustration. For a while I studied I studied business administration for a while and when I finished my third year I decided to move to Argentina decided to move to Argentina with my family. Here I resumed my passion for my passion for art and worked as a digital illustrator.",
+    "about3": "In October 2022 I discovered the world of programming and was fascinated by it. with it. I enjoy watching the process of creating a project, from its inception to the the beginning to the final result, since I am always looking to acquire new skills and knowledge to skills and knowledge to be able to apply them.",
+    "about4": "I consider myself an intelligent, responsible and dedicated person. I am eager to learn, improve to learn, improve and explore all the possibilities that the world of programming and design offer me. of programming and design offer me.",
+    "strengths": "One of my main strengths is my discipline and perseverance. I am in a constant search for my personal and professional growth, which allows me to develop other skills, such as: time management, proactivity, commitment, among others. When I finish a job, I not only make sure that it is delivered on time, but also in the best possible way.",
+    "motivation": "I have numerous personal goals that motivate me every day to improve and get closer to my goals. to improve and get closer to my goals. But my main source of motivation challenges and challenges that the programming world offers us are my main source of motivation. offers us. Its constant and rapid growth, together with its wide variety of languages and languages and technologies, inspires me to keep myself in constant learning and development in this area. and development within this field.",
+    "objectives": "My main objective is to be part of a team, with a pleasant and productive work environment where I can strengthen and productive work environment, where I can strengthen, improve and acquire knowledge and skills that improve and acquire knowledge and skills that align with my work and personal development. my work and personal development."
+  },
+  "contact": {
+    "title": "Contact me",
+    "subtitle": "I would love to work with you 🌼",
+    "name": "Name",
+    "email": "Email address",
+    "message": "Tell me, how can I help you?",
+    "nameError": "Please enter your name.",
+    "emailError1": "Please enter your email address.",
+    "emailError2": "Please enter a valid email address.",
+    "messageError": "Please enter a message.",
+    "success": "Thank you for your message! I will get back to you as soon as possible.",
+    "error": "An error has occurred. Please try again later.",
+    "send": "Send",
+    "author": "Created by: Dariana Rengifo",
+    "whatsapp": "https://wa.me/543517739445/?text=Hi!%20I%20saw%20your%20portfolio%20and%20I%20am%20interested%20in%20working%20with%20you."
+  },
+  "error404": "Oops! The page you are trying to access does not exist."
+}

@@ -1,0 +1,54 @@
+@import "../../variables.css";
+
+.active {
+  background-color: #cb997e;
+  border-radius: 50%;
+}
+.active > img {
+  filter: var(--filter-green);
+}
+
+a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.25rem;
+  padding: 0.25rem;
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+img {
+  width: 1rem;
+  filter: var(--filter-cream);
+  cursor: pointer;
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.75rem;
+  width: max-content;
+  border-radius: 1.75rem;
+  backdrop-filter: blur(15px);
+  background-color: var(--cream);
+  backdrop-filter: blur(0.5rem);
+  background: #464b35b6;
+  z-index: 100;
+}
+
+@media screen and (min-width: 65em) and (orientation: landscape) {
+  a {
+    display: flex;
+    margin: 0.75rem 0.5rem;
+  }
+  nav {
+    bottom: 50vh;
+    left: 0;
+    margin-left: 1.5rem;
+    padding: 0.75rem 0;
+    transform: translate(0%, 50%);
+  }
+}

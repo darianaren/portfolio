@@ -1,0 +1,13 @@
+@import "../variables.css";
+
+.inactive {
+  cursor: pointer;
+}
+.active {
+  font-weight: var(--semibold);
+  cursor: default;
+}
+
+p {
+  text-align: end;
+}

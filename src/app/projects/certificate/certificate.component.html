@@ -1,0 +1,23 @@
+<section class="background" *ngIf="status">
+  <nav>
+    <img
+      class="close"
+      src="https://cdn-icons-png.flaticon.com/512/2734/2734822.png"
+      alt="X"
+      (click)="close()"
+    />
+  </nav>
+  <article class="container">
+    <img [src]="certificate?.image" alt="Certificate" />
+    <p *ngFor="let description of certificate?.description">
+      {{ description | translate }}
+    </p>
+    <h2>{{ "certificates.title" | translate }}</h2>
+    <ul>
+      <li class="knowledge" *ngFor="let knowledge of certificate?.knowledge">
+        <img class="check" src="../../assets/icons/check.png" alt="check" />
+        <p>{{ knowledge | translate }}</p>
+      </li>
+    </ul>
+  </article>
+</section>

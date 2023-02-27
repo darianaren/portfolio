@@ -1,0 +1,29 @@
+<main>
+  <section>
+    <h2>{{ "home.greetings" | translate }}</h2>
+    <h1>Dariana Rengifo</h1>
+    <p class="data">Full stack web developer</p>
+    <p>{{ "home.message" | translate }}</p>
+    <div>
+      <a
+        download="Dariana Rengifo - CV"
+        href="../../assets/pdf/CV - Dariana Rengifo, full stack developer.pdf"
+      >
+        {{ "home.download" | translate }}
+      </a>
+      <a routerLink="/contact" ariaCurrentWhenActive="page">{{
+        "home.contact" | translate
+      }}</a>
+    </div>
+  </section>
+  <picture>
+    <source
+      srcset="../../assets/dariana-illustartions/home.png"
+      media="(min-width: 65em)"
+    />
+    <img
+      srcset="../../assets/dariana-illustartions/home-mobile.png"
+      alt="Dariana Rengifo"
+    />
+  </picture>
+</main>

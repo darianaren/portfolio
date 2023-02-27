@@ -1,0 +1,41 @@
+<section class="background" *ngIf="status">
+  <nav>
+    <img
+      class="close"
+      src="https://cdn-icons-png.flaticon.com/512/2734/2734822.png"
+      alt="X"
+      (click)="close()"
+    />
+    <a [href]="project?.github" target="_blank" rel="noreferrer"
+      ><img
+        class="icon"
+        src="https://cdn-icons-png.flaticon.com/512/2111/2111432.png"
+        alt="GitHub"
+    /></a>
+    <a [href]="project?.behance" target="_blank" rel="noreferrer"
+      ><img
+        class="icon"
+        src="https://cdn-icons-png.flaticon.com/512/4138/4138191.png"
+        alt="Behance"
+    /></a>
+  </nav>
+  <article class="container">
+    <h2>{{ project?.title }}</h2>
+    <video [src]="project?.video" autoplay controls></video>
+    <p *ngFor="let summary of project?.summary">{{ summary | translate }}</p>
+    <h2>{{ "projects.subtitle1" | translate }}</h2>
+    <ul>
+      <li class="key" *ngFor="let key of project?.key">
+        <img class="check" src="../../assets/icons/check.png" alt="check" />
+        <p>{{ key | translate }}</p>
+      </li>
+    </ul>
+    <h2>{{ "projects.subtitle2" | translate }}</h2>
+    <ul>
+      <li class="tech" *ngFor="let tech of project?.allTech">
+        <img class="check" src="../../assets/icons/check.png" alt="check" />
+        <p>{{ tech }}</p>
+      </li>
+    </ul>
+  </article>
+</section>

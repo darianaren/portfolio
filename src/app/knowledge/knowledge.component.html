@@ -1,0 +1,49 @@
+<h2>{{ "knowledge.title1" | translate }}</h2>
+<article *ngFor="let type of knowledges">
+  <h3>{{ type.title | translate }}</h3>
+  <section>
+    <div class="knowledge" *ngFor="let knowledge of type.knowledge">
+      <div>
+        <img src="../../assets/icons/check.png" alt="check" />
+        <p class="pointer" (click)="viewDetails(knowledge.name)">
+          {{ knowledge.name }}
+        </p>
+      </div>
+      <div class="details" *ngIf="details == knowledge.name">
+        <p *ngIf="knowledge.experience">
+          <span>{{ "knowledge.experience" | translate }}:</span>
+          {{ knowledge.experience }}.
+        </p>
+        <div class="projects" *ngIf="knowledge.projects.length > 0">
+          <p class="project">{{ "knowledge.project" | translate }}:</p>
+          <ul>
+            <li *ngFor="let project of knowledge.projects">
+              {{ project }}
+            </li>
+          </ul>
+          <a
+            routerLink="/projects"
+            routerLinkActive="active"
+            ariaCurrentWhenActive="page"
+            >{{ "knowledge.viewProjects" | translate }}</a
+          >
+        </div>
+      </div>
+    </div>
+  </section>
+</article>
+
+<h2>{{ "knowledge.title2" | translate }}</h2>
+<article class="skills">
+  <div class="skill" *ngFor="let skill of skills">
+    <div class="grid-skill">
+      <img src="../../assets/icons/check.png" alt="check" />
+      <p class="pointer" (click)="viewDetails(skill.skill)">
+        {{ skill.skill | translate }}
+      </p>
+    </div>
+    <p class="skill-details" *ngIf="details == skill.skill">
+      {{ skill.description | translate }}
+    </p>
+  </div>
+</article>

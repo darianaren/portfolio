@@ -1,0 +1,17 @@
+<p>
+  <span
+    [class.active]="language == 'es'"
+    class="inactive"
+    (click)="switchLang('es')"
+    >ES</span
+  >
+  |
+  <span
+    [class.active]="language == 'en'"
+    class="inactive"
+    (click)="switchLang('en')"
+    >EN</span
+  >
+</p>
+<app-navbar></app-navbar>
+<router-outlet></router-outlet>

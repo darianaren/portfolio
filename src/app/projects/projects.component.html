@@ -1,0 +1,65 @@
+<h2>{{ "projects.title1" | translate }}</h2>
+<section class="projects">
+  <div
+    class="project"
+    *ngFor="let project of projects; let i = index"
+    (click)="projectOpen(i)"
+  >
+    <img [src]="project.image" [alt]="project.title" />
+    <p class="title">{{ project.title }}</p>
+    <ul>
+      <li class="tech" *ngFor="let tech of project.tech">
+        <img class="check" src="../../assets/icons/check.png" alt="check" />
+        <p>{{ tech }}</p>
+      </li>
+    </ul>
+  </div>
+  <app-project
+    [project]="currentProject"
+    [status]="projectStatus"
+    (projectClose)="projectStatus = false"
+  ></app-project>
+</section>
+
+<h2>{{ "projects.title2" | translate }}</h2>
+<section class="certificates">
+  <div class="certificate">
+    <a
+      href="https://www.efset.org/cert/7vN1ae"
+      target="_blank"
+      rel="noreferrer"
+    >
+      <img
+        src="../../assets/certificates/efset.png"
+        alt="EF Standard English Test (EF SET)"
+      />
+      <p class="title">EF Standard English Test (EF SET)</p>
+      <ul>
+        <li class="knowledge english">
+          <img class="check" src="../../assets/icons/check.png" alt="check" />
+          <p>{{ "certificates.english" | translate }}</p>
+        </li>
+      </ul>
+    </a>
+  </div>
+
+  <div
+    class="certificate"
+    *ngFor="let certificate of certificates; let i = index"
+    (click)="certificateOpen(i)"
+  >
+    <img [src]="certificate.image" [alt]="certificate.title" />
+    <p class="title">{{ certificate.title }}</p>
+    <ul>
+      <li class="knowledge" *ngFor="let knowledge of certificate.knowledge">
+        <img class="check" src="../../assets/icons/check.png" alt="check" />
+        <p>{{ knowledge | translate }}</p>
+      </li>
+    </ul>
+  </div>
+  <app-certificate
+    [certificate]="currentCertificate"
+    [status]="certificateStatus"
+    (certificateClose)="certificateStatus = false"
+  ></app-certificate>
+</section>

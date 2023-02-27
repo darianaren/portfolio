@@ -1,0 +1,115 @@
+@import "../../../variables.css";
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(34, 36, 21, 0.473);
+  z-index: 200;
+}
+
+.container {
+  width: 80vw;
+  height: 90vh;
+  margin: 0;
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  background-color: var(--cream);
+}
+.container * {
+  color: var(--brown);
+}
+
+.check {
+  margin-right: 0.5rem;
+  width: 1rem;
+  filter: var(--filter-beige);
+}
+
+.close {
+  width: 2rem;
+  margin: 0;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  filter: var(--filter-beige);
+}
+
+.icon {
+  width: 3rem;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  filter: var(--filter-beige);
+}
+
+@media (pointer: fine) {
+  .close:hover,
+  .icon:hover {
+    filter: var(--filter-cream);
+  }
+}
+
+.tech,
+.key {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  width: 50%;
+}
+
+.key {
+  width: 100%;
+}
+
+.tech > p,
+.key > p {
+  margin: 0.5rem 0;
+  max-width: 80%;
+}
+
+a {
+  margin: 0;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav {
+  order: 2;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding-top: 5vh;
+  padding-left: 0.5rem;
+}
+
+@media screen and (min-width: 50em) {
+  .tech > p,
+  .key > p {
+    max-width: 90%;
+  }
+}
+
+@media screen and (min-width: 65em) and (orientation: landscape) {
+  .container {
+    width: 50vw;
+    height: 80vh;
+  }
+
+  nav {
+    padding-top: 10vh;
+    padding-left: 1rem;
+  }
+}

@@ -1,0 +1,52 @@
+@import "../../variables.css";
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+a {
+  display: block;
+  margin: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  font-size: max(1.2rem, 1.2vw);
+  font-weight: var(--medium);
+  text-decoration: none;
+  color: var(--green);
+  width: max-content;
+  border-radius: var(--border-radius);
+  background-color: var(--beige);
+  cursor: pointer;
+}
+
+@media (pointer: fine) {
+  a:hover {
+    transform: scale(1.07);
+  }
+}
+
+article {
+  margin-bottom: 6rem;
+}
+
+img {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15rem;
+}
+
+@media screen and (min-width: 65em) and (orientation: landscape) {
+  img {
+    position: relative;
+    left: 0;
+    transform: translateX(0);
+    float: left;
+    width: min(17rem, 35%);
+    margin: 1.5rem 5vw;
+  }
+}

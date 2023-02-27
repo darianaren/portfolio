@@ -1,0 +1,113 @@
+{
+  "home": {
+    "greetings": "¡Hola! Yo soy",
+    "message": "Veo cada desafío como una nueva oportunidad de aprender.",
+    "download": "Descargar CV",
+    "contact": "Contáctame"
+  },
+  "knowledge": {
+    "title1": "Conocimientos",
+    "title2": "Habilidades",
+    "others": "Tecnologías y Software",
+    "experience": "Experiencia académica",
+    "project": "Proyectos",
+    "viewProjects": "Ver todos los proyectos",
+    "skill1": "Liderazgo",
+    "description1": "Me considero una líder natural y democrática, capaz de escuchar a cada miembro del equipo, motivarlos y tomar las mejores decisiones para alcanzar los objetivos.",
+    "skill2": "Trabajo en equipo",
+    "description2": "Al trabajar en equipo, también se me facilita desempeñar otros roles en donde puedo transformar las ideas en realización de trabajos.",
+    "skill3": "Aprendizaje autónomo",
+    "description3": "Adquiero nuevos conocimientos de forma eficiente y eficaz.",
+    "skill4": "Gestión de tiempo",
+    "description4": "Soy capaz de planear y ejercitar el control consciente del tiempo empleado en actividades concretas, con el objetivo de aumentar la eficacia, la eficiencia y la productividad a la hora de realizar un proyecto.",
+    "skill5": "Comunicación y escucha activa",
+    "description5": "Constantemente aplico la comunicación asertiva en mi día a día, para poder expresar mis ideas de forma directa, segura, tranquila y honesta, así como también siendo empática y respetuosa con las otras personas.",
+    "skill6": "Resolución de conflictos",
+    "description6": "Soy capaz de analizar la mejor forma de resolver el conflicto y asumir una postura mediadora en distintos escenarios y situaciones, exponiendo ideas que puedan ayudar a resolverlo.",
+    "skill7": "Adaptación al cambio",
+    "description7": "Acepto el cambio como un viaje y opto por perseverar ante los retos y la incertidumbre con una actitud positiva."
+  },
+  "projects": {
+    "title1": "Proyectos",
+    "title2": "Certificados",
+    "subtitle1": "Logros principales",
+    "subtitle2": "Tecnologías",
+    "workmatch": {
+      "summary1": "Work Match es una aplicación diseñada con la intención de ofrecer a los usuarios la posibilidad de encontrar u ofrecer trabajos temporales. Estos trabajos deben poder completarse exitosamente en menos de 8 horas y de forma presencial, por ejemplo: cortar el césped, lavar coches, pasear perros, limpiar casas, entre muchos otros.",
+      "summary2": "Work Match tiene dos tipos de usuarios: los que ofrecen empleo y los que lo buscan. Los usuarios que deciden ofrecer un puesto de trabajo son los que realizan los anuncios que aparecen en la página de inicio.  Así, los usuarios que buscan empleo tienen la posibilidad de filtrarlos en función de sus preferencias y postularse a aquellos empleos que realmente les interesan. Es importante destacar que un mismo usuario puede realizar ambas acciones desde una misma cuenta.",
+      "key1": "Desarrollar una aplicación de página única (SPA) utilizando el stack PERN.",
+      "key2": "Llamar a los datos de una API.",
+      "key3": "Crear bases de datos relacionales.",
+      "key4": "RESTful API.",
+      "key5": "Autenticación y autorización de terceros integradas.",
+      "key6": "Pasarela de pago.",
+      "key7": "Almacenamiento de datos en la nube.",
+      "key8": "Local storage/persist.",
+      "key9": "Notificaciones por correo electrónico.",
+      "key10": "Borrado lógico.",
+      "key11": "Busqueda por nombre y filtros combinados.",
+      "key12": "Formulario controlado y optimizado.",
+      "key13": "Aplicar estilos usando CSS Modules."
+    },
+    "cookbook": {
+      "summary": "Consiste en una aplicación con autenticación y autorización de usuarios; permite ver, crear, modificar y eliminar recetas propias, así como ver y guardar recetas de otros usuarios.",
+      "key1": "Desarrollar una aplicación de página única (SPA) utilizando el stack PERN.",
+      "key2": "Llamar a los datos de una API.",
+      "key3": "Create relational databases.",
+      "key4": "RESTful API.",
+      "key5": "Busqueda por nombre y filtros combinados.",
+      "key6": "Formulario controlado y optimizado.",
+      "key7": "Aplicar estilos usando CSS Modules."
+    },
+    "portfolio": {
+      "summary": "Este portfolio es el primero de muchos proyectos en donde implementaré Angular y TypeScript. El uso de TypeScript me permitió obtener un código más preciso, con menos errores, más sencillo, coherente y fácil de probar. Y a su vez, Angular 15 me brindó la creación rápida de vistas de interfaz de usuarios con una sintaxis de plantilla muy sencilla y eficaz.",
+      "key1": "Desarrollar una aplicación de página única (SPA).",
+      "key2": "Formulario reactivo con validaciones.",
+      "key3": "Aplicación multi-idiomas",
+      "key4": "Comunicación entre componentes"
+    }
+  },
+  "certificates": {
+    "title": "Conocimientos",
+    "english": "B1 Intermedio",
+    "henryHero": {
+      "knowledge": "Docencia",
+      "description": "Tuve la dicha de participar del programa Henry Hero, el cual consiste principalmente en enseñar los temas esenciales a aquellos estudiantes que están dando sus primeros pasos en programación y desean formar parte de la comunidad de Henry. Así como también, resolver sus dudas e inquietudes, inspirarles confianza y brindarles apoyo en esta nueva etapa."
+    },
+    "henryFullStack": {
+      "description1": "Henry es un bootcamp enfocado en educar a sus estudiantes en carreras de tecnología, brindandoles más de 800 horas de práctica y desarrollando el aprendizaje autónomo.",
+      "description2": "Este curso me ha brindado un entrenamiento intensivo en el que he adquirido numerosos conocimientos de las últimas tecnologías y lenguajes de programación, principalmente JavaScript, HTML, CSS, React JS, Node JS, Express, entre otros.",
+      "description3": "Así mismo, me brindó la oportunidad de construir, tanto de forma individual, como en equipo, proyectos del mundo real con metodologías y herramientas ágiles (scrum), bajo aprendizajes colaborativos, autónomos y continuos."
+    }
+  },
+  "about": {
+    "title1": "Sobre Mi",
+    "title2": "Mis fortalezas",
+    "title3": "Mi motivación",
+    "title4": "Mis objetivos",
+    "about1": "Hola, mi nombre es Dariana Rengifo. Nací y crecí en Venezuela y actualmente vivo en Argentina.",
+    "about2": "Desde pequeña me gusta el diseño, el arte y la ilustración. Durante un tiempo estudié administración de empresas y al culminar el tercer año de carrera decidí mudarme a Argentina junto a mi familia. Aquí retomé mi pasión por el arte y trabajé como ilustradora digital.",
+    "about3": "En octubre del 2022 descubrí el mundo de la programación y quedé fascinada con él. Disfruto ver el proceso de creación de un proyecto, desde su inicio hasta el resultado final, ya que, siempre busco adquirir nuevas habilidades y conocimientos para poder aplicarlos.",
+    "about4": "Me considero una persona inteligente, responsable y dedicada. Con muchas ganas de aprender, mejorar y explorar todas las posibilidades que el mundo de la programación y el diseño me ofrecen.",
+    "strengths": "Unas de mis principales fortalezas son mi disciplina y constancia. Estoy en una búsqueda constante de mi cremiento personal y laboral, lo que me permite desarrollar otras habilidades, como lo son: gestión de tiempo, proactividad, compromiso, entre otros. Al culminar un trabajo, no solo me aseguro de que se entreguen en tiempo, sino también de la mejor forma que me sea posible.",
+    "motivation": "Cuento con numerosas metas personales que me motivan todos los días a mejorar y acercarme a mis objetivos. Pero mi principal fuente de motivación son los desafíos y retos que el mundo de la programación nos ofrece. Su constante y rápido crecimiento, junto a su amplia variedad de lenguajes y tecnologías, me inspira a mantenerme en constante aprendizaje y desarrollo dentro de este rubro.",
+    "objectives": "Mi principal objetivo es formar parte de un equipo de trabajo, con un ambiente laboral agradable y productivo, en donde pueda fortalecer, mejorar y adquirir conocimientos y habilidades que se alineen con mi desarrollo laboral y personal."
+  },
+  "contact": {
+    "title": "Contáctame",
+    "subtitle": "Me encantaría trabajar contigo 🌼",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "message": "Cuéntame, ¿en qué te puedo ayudar?",
+    "nameError": "Por favor, ingresa tu nombre.",
+    "emailError1": "Por favor, ingresa tu correo electrónico.",
+    "emailError2": "Por favor, ingresa un correo electrónico válido.",
+    "messageError": "Por favor, ingresa un mensaje.",
+    "success": "¡Gracias por tu mensaje! Te responderé lo antes posible.",
+    "error": "Ha ocurrido un error. Por favor, intente más tarde.",
+    "send": "Enviar",
+    "author": "Creado por: Dariana Rengifo",
+    "whatsapp": "https://wa.me/543517739445/?text=¡Hola!%20Vi%20tu%20portfolio%20y%20me%20interesa%20trabajar%20contigo."
+  },
+  "error404": "¡Ups! La página a la que intentas ingresar no existe."
+}

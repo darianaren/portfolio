@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+:root {
+  /* Typography */
+  --font-size: max(17px, 1vw);
+  --font-family: "Montserrat", sans-serif;
+  --regular: 400;
+  --medium: 500;
+  --semibold: 600;
+  /* Border radius */
+  --border-radius: 0.5rem;
+  /* Colors */
+  --green: #80836c;
+  --cream: #fef4ec;
+  --beige: #ddbea9;
+  --brown: #5d281a;
+  /* Icon filters */
+  --filter-beige: invert(78%) sepia(4%) saturate(3335%) hue-rotate(326deg)
+    brightness(115%) contrast(73%);
+  --filter-cream: invert(100%) sepia(57%) saturate(673%) hue-rotate(297deg)
+    brightness(104%) contrast(99%);
+  --filter-green: invert(28%) sepia(42%) saturate(285%) hue-rotate(32deg)
+    brightness(92%) contrast(86%);
+  --filter-brown: invert(16%) sepia(11%) saturate(7500%) hue-rotate(342deg)
+    brightness(90%) contrast(89%);
+}
