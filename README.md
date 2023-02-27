@@ -1,27 +1,23 @@
-# MyApp
+# My Portfolio
+
+![Food](./src/assets/projects/portfolio.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.6.
 
-## Development server
+This portfolio is the first of many projects where I will implement Angular and TypeScript. Using TypeScript allowed me to get more accurate code, with fewer errors, simpler, more consistent and easier to test. And in turn, Angular 15 gave me the ability to quickly create UI views with a very simple and efficient template syntax.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Key accomplishments
+- Develop a single page application (SPA).
+- Reactive form with validations.
+- Multilanguage application
+- Communication between components
 
-## Code scaffolding
+## Tech Stack
+![TypeScript](https://img.shields.io/badge/-TypeScript-8DD6F9?style=flat-square&logo=html5&logoColor=white)
+![HTML5](https://img.shields.io/badge/-HTML5-45b8d8?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/-CSS-46a2f1?style=flat-square&logo=html5&logoColor=white)
+![Angular 15](https://img.shields.io/badge/-Angular-2088FF?style=flat-square&logo=react&logoColor=white)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Deploy 🌐: [My Portfolio](https://work-match-client.vercel.app/)
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# I hope you enjoy it.
