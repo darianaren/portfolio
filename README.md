@@ -18,6 +18,6 @@ This portfolio is the first of many projects where I will implement Angular and 
 ![CSS](https://img.shields.io/badge/-CSS-46a2f1?style=flat-square&logo=html5&logoColor=white)
 ![Angular 15](https://img.shields.io/badge/-Angular-2088FF?style=flat-square&logo=react&logoColor=white)
 
-## Deploy 🌐: [My Portfolio](https://work-match-client.vercel.app/)
+## Deploy 🌐: [My Portfolio](https://portfolio-jx0i14drm-darianaren.vercel.app/home)
 
 # I hope you enjoy it.
