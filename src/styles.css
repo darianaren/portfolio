@@ -104,6 +104,7 @@ h2 {
 input,
 textarea {
   display: block;
+  margin: 0.5rem auto;
   padding: 1.5rem 1rem;
   border-radius: var(--border-radius);
   width: 100%;
