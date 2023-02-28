@@ -5,6 +5,14 @@
     "download": "Download CV",
     "contact": "Contact me"
   },
+  "navbar": {
+    "home": "Home",
+    "knowledge": "Knowledges and skills",
+    "projects": "Projects and certificates",
+    "about": "About me",
+    "download": "Download CV",
+    "contact": "Contact me"
+  },
   "knowledge": {
     "title1": "Knowledges",
     "title2": "Skills",

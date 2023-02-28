@@ -5,6 +5,14 @@
     "download": "Descargar CV",
     "contact": "Contáctame"
   },
+  "navbar": {
+    "home": "Home",
+    "knowledge": "Conocimientos y habilidades",
+    "projects": "Proyectos y certificados",
+    "about": "Sobre mi",
+    "download": "Descargar CV",
+    "contact": "Contáctame"
+  },
   "knowledge": {
     "title1": "Conocimientos",
     "title2": "Habilidades",

@@ -8,7 +8,35 @@
   filter: var(--filter-green);
 }
 
+.tooltip {
+  display: none;
+  position: absolute;
+  bottom: 1.25rem;
+  font-size: 0.75rem;
+  text-align: center;
+  color: var(--cream);
+  padding: 0.35rem 1rem;
+  width: max-content;
+  border-radius: var(--border-radius);
+  background-color: #cb997e;
+  z-index: 200;
+  overflow: visible;
+}
+
+.tooltip::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0.35rem;
+  left: calc(50% - 0.25rem);
+  transform: rotate(45deg);
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #cb997e;
+}
+
 a {
+  position: relative;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -16,6 +44,13 @@ a {
   padding: 0.25rem;
   width: 1.75rem;
   height: 1.75rem;
+  overflow: visible;
+}
+
+@media (pointer: fine) {
+  a:hover .tooltip {
+    display: block;
+  }
 }
 
 img {
@@ -37,9 +72,30 @@ nav {
   backdrop-filter: blur(0.5rem);
   background: #464b35b6;
   z-index: 100;
+  overflow: visible;
 }
 
 @media screen and (min-width: 65em) and (orientation: landscape) {
+  .tooltip {
+    position: absolute;
+    left: 2.75rem;
+    top: -1rem;
+    height: 1.55rem;
+    border-radius: 0.25rem;
+  }
+
+  .tooltip::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -0.5rem;
+    left: -0.2rem;
+    transform: rotate(45deg);
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #cb997e;
+  }
+
   a {
     display: flex;
     margin: 0.75rem 0.5rem;
