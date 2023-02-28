@@ -65,17 +65,34 @@ a {
 }
 
 img {
-  width: 3rem;
+  width: min(3rem, 6vh);
   filter: var(--filter-green);
 }
+
 @media (pointer: fine) {
   img:hover {
     transform: scale(1.1);
   }
 }
+
+button {
+  margin: 0.5rem auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 25rem);
+  margin-bottom: 16rem;
+}
+
 footer {
-  position: relative;
-  left: -1.5rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -90,15 +107,16 @@ footer {
   button {
     margin-right: 1rem;
   }
-  
+
   textarea {
     height: 15.5vh;
   }
-  
+
   form {
-    margin-bottom: 12rem;
+    min-height: calc(100vh - 21rem);
+    margin-bottom: 13rem;
   }
-  
+
   footer {
     position: fixed;
     left: 0;
