@@ -151,7 +151,7 @@ export const knowledge = {
 export const projects = [
   {
     title: 'Work Match Website',
-    behance: 'https://www.behance.net/darianarengifo',
+    behance: 'https://www.behance.net/gallery/164816979/Work-Match-Website-Design-UIUX',
     github: 'https://github.com/darianaren/Work-Match',
     image: '../../assets/projects/work-match.png',
     tech: ['JavaScript', 'React', 'Node JS', 'Express JS'],
@@ -225,7 +225,7 @@ export const projects = [
   },
   {
     title: 'My Portfolio',
-    behance: 'https://www.behance.net/darianarengifo',
+    behance: 'https://www.behance.net/gallery/164817127/My-Portfolio-Full-Stack-Web-Developer',
     github: 'https://github.com/darianaren/',
     image: '../../assets/projects/portfolio.png',
     tech: ['TypeScript', 'Angular'],
