@@ -226,7 +226,7 @@ export const projects = [
   {
     title: 'My Portfolio',
     behance: 'https://www.behance.net/gallery/164817127/My-Portfolio-Full-Stack-Web-Developer',
-    github: 'https://github.com/darianaren/',
+    github: 'https://github.com/darianaren/portfolio',
     image: '../../assets/projects/portfolio.png',
     tech: ['TypeScript', 'Angular'],
     video: '../../../assets/projects/portfolio.mp4',
