@@ -1,20 +1,30 @@
 <nav>
-  <a routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page"
+  <a 
+     routerLink="/home"
+     routerLinkActive="active"
+     ariaCurrentWhenActive="page"
+     (click)="scrollTop()"
     ><img src="../../assets/icons/home.png" alt="Home"
   /></a>
   <a
     routerLink="/knowledge"
     routerLinkActive="active"
     ariaCurrentWhenActive="page"
+    (click)="scrollTop()"
     ><img src="../../assets/icons/knowledge.png" alt="Knowledge"
   /></a>
   <a
     routerLink="/projects"
     routerLinkActive="active"
     ariaCurrentWhenActive="page"
+    (click)="scrollTop()"
     ><img src="../../assets/icons/projects.png" alt="projects"
   /></a>
-  <a routerLink="/about" routerLinkActive="active" ariaCurrentWhenActive="page"
+  <a 
+     routerLink="/about"
+     routerLinkActive="active"
+     ariaCurrentWhenActive="page"
+     (click)="scrollTop()"
     ><img src="../../assets/icons/about.png" alt="About"
   /></a>
   <a
@@ -26,6 +36,7 @@
     routerLink="/contact"
     routerLinkActive="active"
     ariaCurrentWhenActive="page"
+    (click)="scrollTop()"
     ><img src="../../assets/icons/contact.png" alt="contact"
   /></a>
 </nav>
