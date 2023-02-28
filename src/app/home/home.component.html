@@ -11,7 +11,7 @@
       >
         {{ "home.download" | translate }}
       </a>
-      <a routerLink="/contact" ariaCurrentWhenActive="page">{{
+      <a routerLink="/contact" ariaCurrentWhenActive="page" (click)="scrollTop()">{{
         "home.contact" | translate
       }}</a>
     </div>
