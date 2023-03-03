@@ -24,6 +24,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   padding: 0 1.5rem;
 }
